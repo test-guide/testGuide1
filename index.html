@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title> CSCI 3342 Assignment #2 </title> 
+	 	<link rel="stylesheet" type="text/css" href="e2.css" />
+	</head> 
+	<body> 
+	 	<div id="canvas"> 
+	 		<div id="guide"> 
+	 	 		<h3>Guide</h3> 
+	 	 	 	<hr> 
+	 	 	 	<ul> 
+	 	 	 		<li><a class="thispage" href=" ">Intro</a></li> 
+	 	 	 	 	<li><a href=" ">Exams</a></li> 
+	 	 	 	 	<li><a href=" ">Quizzes</a></li> 
+	 	 	 	 	<li><a href=" ">Assignments</a></li> 
+	 	 	 	</ul> 
+	 	 	 	<img src="mascot.png" width=30px height=30px alt="Our Mascot" /> 
+	 	 	</div> 
+	 	 	<div id="header"> 
+	 	 	 	<h1>CSCI 3342 Assignment #2</h1> 
+	 	 	</div> 
+	 	 	<div id="body"> 
+	 	 	 	<h2 id="head1">Learning JavaScript</h2> 
+	 	 	 	<p> 
+	 	 	 		<script> 
+	 	 	 			document.write("My first JavaScript Line!!!"); 
+	 	 	 		</script> 
+	 			</p>
+				<form id="form1" action="a2b.html" method="post" onSubmit="return f2();">
+					<p>
+						<div class="row">
+							<label for="operand1">Operand #1 </label>
+							<input type="number" id="operand1" name=""></br>
+						</div>
+						<div class="row">
+							<label for="operand2">Operand #2 </label>
+							<input type="number" id="operand2" name=""></br>
+						</div>
+            <div class="row">
+							<label for="operator">Operator </label>
+							<select id="operator" name="">
+                <option value="add">Add</option>
+                <option value="sub">Sub</option>
+                <option value="mul">Mul</option>
+              </select>
+              </br>
+						</div>
+					</p>
+					<input type="submit" value="submit">
+					</form>
+	 	 	 	<p>Topics</p> 
+	 	 	 	<p> 	<ol id="list1"> 
+	 	 	 	 	<li>Form Validation</li> 
+	 	 	 	 	<li>Webpage Effects</li> 
+	 	 	 	 	<li>Interactive Content</li> 
+	 	 	 	 	</ol> 
+	 	 	 	</p>
+				<p>
+					<script>
+						let v1=13, v2=7.5, v3="Click Here";
+						v1 = v1 - v2 + 1.5;
+						document.write("Length of v3 string is " + v3.length + " and a substring is " + v3.substring(6,10));
+					</script>
+				</p>
+				<p>
+					<script src="script2.js"></script>
+				</p>
+			</div> 
+	 	 	<div id="footer"> 
+	 	 		<h6>Edinburg-Harlingen-Brownsville</h6> 
+	 	 	</div> 
+	 	</div> 
+	</body> 
+</html> 
